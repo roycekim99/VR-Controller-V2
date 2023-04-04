@@ -6,6 +6,7 @@ function App() {
   // -- server check:
   // get data from backend server
   const [data, setData] = React.useState(null);
+  
 
   React.useEffect(() => {
     fetch(localHost + "/client_test")
